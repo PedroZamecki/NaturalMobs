@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "natural-mobs",
+  "version": "${version}",
+  "name": "Natural Mobs",
+  "description": "Add new functionalities for the existing minecraft mobs.",
+  "authors": [
+    "Zamecki"
+  ],
+  "contact": {
+    "repo": "https://github.com/PedroZamecki/NaturalMobs"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nm/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.zamecki.nm.NaturalMobs"
+    ]
+  },
+  "mixins": [
+    "nm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
