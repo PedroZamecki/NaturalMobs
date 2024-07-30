@@ -4,6 +4,9 @@
   "package": "org.zamecki.nm.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "AnimalEntityMixin",
+    "EntityMixin",
+    "EntityTypeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
