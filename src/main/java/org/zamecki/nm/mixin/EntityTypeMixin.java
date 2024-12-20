@@ -28,7 +28,7 @@ public abstract class EntityTypeMixin {
         if (entity instanceof MobEntity mobEntity) {
             // Determine the random and natural scale of the mob.
 
-            EntityAttributeInstance entityAttributeInstance = mobEntity.getAttributeInstance(EntityAttributes.GENERIC_SCALE);
+            EntityAttributeInstance entityAttributeInstance = mobEntity.getAttributeInstance(EntityAttributes.SCALE);
             if (entityAttributeInstance == null) {
                 throw new RuntimeException("Entity does not have scale attribute");
             }
